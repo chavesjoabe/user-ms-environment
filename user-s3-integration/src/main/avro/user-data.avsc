@@ -1,0 +1,11 @@
+{
+  "namespace": "org.joabe.avro",
+  "type": "record",
+  "name": "UserData",
+  "fields": [
+    { "name": "id", "type": "string" },
+    { "name": "name", "type": "string" },
+    { "name": "document", "type": "string" },
+    { "name": "situation", "type": "string" }
+  ]
+}
