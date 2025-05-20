@@ -40,7 +40,11 @@ This project demonstrates a microservice architecture using **Java (Quarkus)**, 
 ```
 
 ## 🚀 Getting Started
-
+1. Clone the Repository
+```bash 
+git clone https://github.com/chavesjoabe/user-ms-environment.git
+cd user-ms-environment
+```
 2. Start the Environment
 
 ```bash
@@ -101,6 +105,8 @@ aws --endpoint-url http://localhost:4566 s3 ls s3://user-data-files/
 You should see .csv files containing user data.
 
 ## 📸 Architecture Diagram
+<img width="625" alt="image" src="https://github.com/user-attachments/assets/2df444d0-116c-49a5-8bd4-966e2ffd4a22" />
+
 
 ## 🧹 Cleanup
 
