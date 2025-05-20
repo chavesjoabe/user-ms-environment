@@ -84,8 +84,15 @@ cd test-service
 mvn quarkus:dev -Dquarkus.args="user-ids-producer --count=1"
 ```
 
-This will publish count number of messages to the Kafka topic user-ids.
-
+This will publish count number of messages to the Kafka topic user-ids.  
+To produce more than a single message just update `--count=1` to desired number of messages.  
+Example:  
+To produce 1000 messages on topic use the command:  
+```bash
+cd test-service
+mvn quarkus:dev -Dquarkus.args="user-ids-producer --count=1000"
+```
+The CLI will produce random ID's that exists in database  
 ## ✅ Expected Flow
 
 test-service produces message(s) to user-ids topic.
