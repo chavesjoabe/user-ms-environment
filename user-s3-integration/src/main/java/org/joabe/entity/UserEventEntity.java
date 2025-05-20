@@ -9,6 +9,9 @@ public class UserEventEntity extends SpecificRecordBase {
   private String document;
   private String situation;
 
+  public UserEventEntity() {
+  }
+
   public UserEventEntity(String id, String name, String document, String situation) {
     this.id = id;
     this.name = name;
