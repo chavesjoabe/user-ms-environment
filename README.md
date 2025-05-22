@@ -112,8 +112,7 @@ aws --endpoint-url http://localhost:4566 s3 ls s3://user-data-files/
 You should see .csv files containing user data.
 
 ## 📸 Architecture Diagram
-<img width="688" alt="image" src="https://github.com/user-attachments/assets/59d39220-8c9b-4610-991c-d40a0fd22828" />
-
+<img width="637" alt="image" src="https://github.com/user-attachments/assets/42d1848e-407d-4c36-a708-e8d57ff8a202" />
 
 ## 🧹 Cleanup
 
